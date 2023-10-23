@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "CallMe",
+    "slug": "fakeCall",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/AppIcon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#272727"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.github.aidenkt.personal.fakeCall"
+    },
+    "android": {
+      "permissions": [],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/AppIcon.png",
+        "backgroundColor": "#272727"
+      },
+      "package": "com.aidenkt.snack9166be6bc08e4e1ab0345edea3dbdd90"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
