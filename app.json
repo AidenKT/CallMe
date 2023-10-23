@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "CallMe",
-    "slug": "fakeCall",
+    "slug": "callMe",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/AppIcon.png",
@@ -17,8 +17,7 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "plugins": [
-    ],
+    "plugins": [],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.github.aidenkt.personal.fakeCall"
@@ -33,6 +32,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3483dd86-5788-4c72-ba42-d05763c87ff9"
+      }
     }
   }
 }
