@@ -139,8 +139,7 @@ export function MainScreen({ navigation }) {
       style={styles.backgroundImage}>
       <ActionSheetProvider>
         <View style={styles.container}>
-          <StatusBar barStyle="light-content" />
-          <StatusBar style="light" />
+          <StatusBar barStyle="light-content" style="light" />
           <TouchableOpacity
             activeOpacity={0.8}
             onLongPress={() => {
