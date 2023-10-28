@@ -99,8 +99,8 @@ export function AppleFakeCall({ route, navigation }) {
         blurRadius={50}
         style={styles.backgroundImage}>
         <View style={{ backgroundColor: 'rgba(0,0,0, 0.35)' }}>
-          <StatusBar barStyle="light-content" />
-          <StatusBar style="light" />
+          <StatusBar barStyle="light-content"/>
+          <StatusBar style="light"/>
           <View style={styles.iOSCallID}>
             <Text style={styles.iOSName}>{callerID}</Text>
             <Text style={styles.iOSSubText}>mobile</Text>

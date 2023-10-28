@@ -30,7 +30,6 @@ export function AppleOnCall({ props, route, navigation }) {
         style={styles.backgroundImage}>
         <View style={{ backgroundColor: 'rgba(0,0,0, 0.35)', flex: '1' }}>
           <StatusBar barStyle="light-content" />
-          <StatusBar style="light" />
           <View style={styles.iOSOnCallID}>
             <Text style={styles.iOSName}>Aiden</Text>
             <StopwatchTimer

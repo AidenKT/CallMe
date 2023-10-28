@@ -45,7 +45,6 @@ export function Confirmation({ props, route, navigation }) {
   return (
     <View style={styles.container}>
       <StatusBar barStyle="light-content" />
-      <StatusBar style="light" />
       <View style={styles.iconConfirm}>
         <MaterialIcons name="check-circle" size={128} color="#FFFFFF" />
       </View>
