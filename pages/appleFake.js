@@ -16,7 +16,6 @@ import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import { Audio } from 'expo-av';
 
-
 export function AppleFakeCall({ route, navigation }) {
   
   const backgroundImage = require('../assets/ios17Background.png');

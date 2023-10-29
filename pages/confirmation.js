@@ -15,11 +15,6 @@ import * as Haptics from 'expo-haptics';
 import { ActionSheetProvider } from '@expo/react-native-action-sheet';
 import * as WebBrowser from 'expo-web-browser';
 
-
-// You can import from local files
-import SirenLogo from '../components/logo.js';
-import LanguageSelect from '../components/language.js';
-
 export function Confirmation({ props, route, navigation }) {
   const { passedType } = route.params;
 
